@@ -1,0 +1,16 @@
+{
+  "team": "Team Alpha",
+  "members": [
+    {
+      "rank": "Capt",
+      "marks": 210,
+      "badge": "Yes"
+    },
+    {
+      "rank": "Lt",
+      "marks": 180,
+      "badge": "No"
+    }
+  ],
+  "totalTeamMarks": 390
+}

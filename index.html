@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat Meet Shooting Score Marksheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Combat Meet Shooting Score Marksheet</h1>
+
+    <div class="team-section">
+        <h2>Team Scores</h2>
+        <form id="scoreForm">
+            <!-- Create sections for 10 members with profile, score inputs, and history -->
+            <div id="memberScores">
+                <!-- This section will be dynamically populated with members' forms -->
+            </div>
+        </form>
+        <h3>Team Total: <span id="teamTotal">0 / 2500</span></h3>
+        <button onclick="calculateTotal()">Calculate Total</button>
+    </div>
+
+    <div class="report-section">
+        <h2>Shooter History and Improvement Report</h2>
+        <div id="historyReport"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
